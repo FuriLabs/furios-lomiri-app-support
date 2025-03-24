@@ -1,0 +1,3 @@
+module Ubuntu.DownloadManager.Private
+
+singleton DeprecationPrinter 1.2 DeprecationPrinter.qml

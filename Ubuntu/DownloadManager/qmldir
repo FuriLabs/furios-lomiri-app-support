@@ -1,0 +1,11 @@
+module Ubuntu.DownloadManager
+
+Error 0.1 Error.qml
+Metadata 0.1 Metadata.qml
+SingleDownload 0.1 SingleDownload.qml
+DownloadManager 0.1 DownloadManager.qml
+
+Error 1.2 Error.qml
+Metadata 1.2 Metadata.qml
+SingleDownload 1.2 SingleDownload.qml
+DownloadManager 1.2 DownloadManager.qml

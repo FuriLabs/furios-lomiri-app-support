@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+%:
+	dh $@
+
+override_dh_install:
+	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
+	cp -a Ubuntu debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
