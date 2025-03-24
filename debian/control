@@ -88,5 +88,6 @@ Depends: ${misc:Depends},
  qmlscene,
  qt5-image-formats-plugins,
  qml-module-usermetrics,
+ libqzxing3,
 Description: Lomiri app (Open Store) support package
  This package provides runtime QML modules required by most Lomiri apps distributed via the Open Store.
