@@ -13,3 +13,8 @@ override_dh_install:
 
 	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
 	cp -a Ubuntu debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
+
+override_dh_dwz:
+override_dh_strip:
+override_dh_makeshlibs:
+override_dh_shlibdeps:
