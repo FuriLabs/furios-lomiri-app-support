@@ -8,7 +8,7 @@ Vcs-Browser: https://github.com/furilabs/furios-lomiri-app-support
 Vcs-Git: https://github.com/furilabs/furios-lomiri-app-support.git
 
 Package: furios-lomiri-app-support
-Architecture: all
+Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
  qml-module-buteo-syncfw,
