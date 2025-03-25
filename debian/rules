@@ -11,6 +11,9 @@ override_dh_install:
 	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/lib/
 	cp -a compat/lib/. debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/lib/
 
+	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/bin
+	cp -a compat/bin/. debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/bin/
+
 	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
 	cp -a Ubuntu debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/
 
