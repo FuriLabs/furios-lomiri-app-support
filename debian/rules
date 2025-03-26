@@ -11,6 +11,8 @@ override_dh_install:
 	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/lib/
 	cp -a compat/lib/. debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/lib/
 
+	ln -s /usr/lib/$(DEB_HOST_MULTIARCH)/liblomiri-online-accounts-qt5.so.1 debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/lib/libOnlineAccountsQt.so.1
+
 	install -d debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/bin
 	cp -a compat/bin/. debian/furios-lomiri-app-support/usr/lib/$(DEB_HOST_MULTIARCH)/furios-lomiri-app-support/bin/
 
